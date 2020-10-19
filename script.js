@@ -113,39 +113,39 @@ function showQuestion(questions) {
 
 var questions = [
     {
-        question: 'Which is a function ?',
+        question: 'Inside which HTML element do we put the Javascript ?',
         answers: [
-        { text: 'function()', correct: true },
-        { text: 'method()', correct: false },
-        { text: 'variable()', correct: false },
-        { text: 'class()', correct: false }
+        { text: '<script>', correct: true },
+        { text: '<js>', correct: false },
+        { text: '<scripting>', correct: false },
+        { text: '<javascript>', correct: false }
         ]
     },
     {
-        question: 'Who made this test',
+        question: 'Where is the correct place to insert a Javascript?',
         answers: [
-        { text: 'Amanda', correct: true },
-        { text: 'Ben our Instructor', correct: false },
-        { text: 'Some rando on stack overflow', correct: false },
-        { text: 'Some student I paid', correct: false }
+        { text: '<head> section', correct: false },
+        { text: '<body> section', correct: false },
+        { text: '<title> section', correct: false },
+        { text: 'both the <head> and <body> section are correct', correct: true }
         ]
     },
     {
-        question: 'Best coffee?',
+        question: 'The external Javascript file must contain the <script> tag.',
         answers: [
-        { text: 'Latte', correct: false },
-        { text: 'Black', correct: false },
-        { text: 'Espresso', correct: false },
-        { text: 'Americano', correct: true }
+        { text: 'true', correct: true },
+        { text: 'false', correct: false },
+        { text: 'possibly', correct: false },
+        { text: 'maybe so', correct: false }
         ]
     },
     {
-        question: 'Best Ice Cream?',
+        question: 'How to write an IF statement in Javascript?',
         answers: [
-        { text: 'Chocolate', correct: false },
-        { text: 'Cookies and Cream', correct: true },
-        { text: 'Mint Chocolate Chip', correct: false },
-        { text: 'Strawberry', correct: false }
+        { text: 'if i == 5 then', correct: false },
+        { text: 'if i = 5 then', correct: false },
+        { text: 'if i = 5', correct: false },
+        { text: 'if (i === 5)', correct: true }
         ]
     }
 ]
